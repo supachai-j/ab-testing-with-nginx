@@ -1,0 +1,22 @@
+version: "3.7"
+services:
+    nginx:
+        image: nginx:latest
+        #image: nginx-plus-ubuntu18.04:latest
+        restart: always
+        ports:
+          - 80:80
+        volumes:
+        # Demo-1 Enable
+           - ./conf/ab-testing-random-slipting.conf:/etc/nginx/nginx.conf
+
+        # Demo-2 Enable
+          # - ./conf/ab-testing-stickyroute.conf:/etc/nginx/nginx.conf
+      
+        # Demo-3 Enable
+          # - ./conf/ab-testing-dynamic-random-slipting.conf:/etc/nginx/nginx.conf
+          # - ./conf/state_files:/etc/nginx/state_files
+
+        # Demo-4 Enable
+          # - ./conf/ab-testing-with-jwt-routing.conf:/etc/nginx/nginx.conf
+          # - ./conf/api_secret.jwk:/etc/nginx/api_secret.jwk
