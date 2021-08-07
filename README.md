@@ -1,10 +1,8 @@
 # สำหรับ NGINX Webinar Forum:  Apply A/B Testing with NGINX Routing Policy 
 ### เมื่อวันที่ 05/08/2021 เวลา 14.00–15.00 น.
 ### Presentation Slides Sharing
-
-![presentation slides sharing](docs/images/presentation_images.png)
 [Apply A/B Testing with NGINX Routing Policy slides sharing](https://bit.ly/ngxthailand-ab-tesing-nginx)
-
+![presentation slides sharing](docs/images/presentation_images.png)
 
 ## ก่อนทำการทดสอบ ต้องทำการเตรียม ดังนี้
 1. ติดตั้ง ```Docker Desktop``` บน PC หรือ ใช้ VM บน PC/Cloud แล้วติดตั้ง ```Docker``` และ ```Docker-compose```
@@ -34,6 +32,8 @@
 
 Mr. Supachai Jaturaprom (Tum).
 
+
 FB Fanpage: [NGINX Community Thailand](https://www.facebook.com/nginx.community.thailand)\
+FB Group: [NGINX Community Thailand](https://www.facebook.com/groups/279362897048572)\
 Twitter: [NGINX Community Thailand](https://twitter.com/NginxThailand)\
 Youtube: [NGINX Community Thailand](https://www.youtube.com/channel/UC6jRLyLwdKhR_HQtJ9DrToA)
