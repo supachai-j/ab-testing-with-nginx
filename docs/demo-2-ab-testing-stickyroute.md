@@ -20,7 +20,7 @@ docker-compose up -d
 ```sh
 docker-compose logs -f
 ```
-2.2) ในการทดสอบนี้จะอ้างอิง nginx configuration จากไฟล์ [ab-testing-stickyroute.conf](conf/ab-testing-stickyroute.conf) 
+2.2) ในการทดสอบนี้จะอ้างอิง nginx configuration จากไฟล์ [ab-testing-stickyroute.conf](../conf/ab-testing-stickyroute.conf) 
 ```nginx
         map $cookie_route $route_cookie {
               ~\.(?P<route>\w+)$ $route;

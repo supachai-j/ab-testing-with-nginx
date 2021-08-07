@@ -21,7 +21,7 @@ docker-compose up -d
 ```sh
 docker-compose logs -f
 ```
-3.2) ในการทดสอบนี้จะอ้างอิง nginx configuration จากไฟล์ [ab-testing-dynamic-random-slipting.conf](conf/ab-testing-dynamic-random-slipting.conf) 
+3.2) ในการทดสอบนี้จะอ้างอิง nginx configuration จากไฟล์ [ab-testing-dynamic-random-slipting.conf](../conf/ab-testing-dynamic-random-slipting.conf) 
 ```nginx
    keyval_zone zone=split:64k state=/etc/nginx/state_files/split.json;
     keyval $host $split_level zone=split;

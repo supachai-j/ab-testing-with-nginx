@@ -19,7 +19,7 @@ docker-compose up -d
 ```sh
 docker-compose logs -f
 ```
-1.2) ในการทดสอบนี้จะอ้างอิง nginx configuration จากไฟล์ [ab-testing-random-slipting.conf](conf/ab-testing-random-slipting.conf) นี้ จะมีรายละเอียดที่เกี่ยวข้อง ดังนี้
+1.2) ในการทดสอบนี้จะอ้างอิง nginx configuration จากไฟล์ [ab-testing-random-slipting.conf](../conf/ab-testing-random-slipting.conf) นี้ จะมีรายละเอียดที่เกี่ยวข้อง ดังนี้
 ```nginx
 split_clients "${arg_token}" $dynamic {
                 90%     version_1a;

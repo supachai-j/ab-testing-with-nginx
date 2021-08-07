@@ -20,7 +20,7 @@ docker-compose up -d
 ```sh
 docker-compose logs -f
 ```
-4.2) ในการทดสอบนี้จะอ้างอิง nginx configuration จากไฟล์  [ab-testing-with-jwt-routing.conf](conf/ab-testing-with-jwt-routing.conf) นี้ 
+4.2) ในการทดสอบนี้จะอ้างอิง nginx configuration จากไฟล์  [ab-testing-with-jwt-routing.conf](../conf/ab-testing-with-jwt-routing.conf) นี้ 
 ```nginx
 # JWT validation
 auth_jwt "JWT Test Realm" token=$arg_myjwt;
