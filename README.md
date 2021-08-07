@@ -16,7 +16,7 @@
 
 ## เนื้อหาทดสอบ A/B Testing ด้วย NGINX
 - [Demo-1: How to A/B testing with Random Client Spliting](docs/demo-1-ab-testing-random-slipting.md)
-- [Demo-2: A/B testing with sticky route.](docs/demo-1-ab-testing-random-slipting.md)
+- [Demo-2: A/B testing with sticky route.](docs/demo-2-ab-testing-stickyroute.md)
 - [Demo-3: Dynamic A/B Testing with Multi-domain](docs/demo-3-ab-testing-dynamic-random-slipting.md)
 - [Demo-4: A/B Testing with JWT](docs/demo-4-ab-testing-with-jwt-routing.md)
 
