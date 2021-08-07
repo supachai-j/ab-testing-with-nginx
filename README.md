@@ -28,6 +28,8 @@
 - [Dynamic A/B Testing with NGINX Plus](https://www.nginx.com/blog/dynamic-a-b-testing-with-nginx-plus)
 - [Authentication and Content-Based Routing with JWTs and NGINX Plus](https://www.nginx.com/blog/authentication-content-based-routing-jwts-nginx-plus/)
 
+การทดสอบนี้ เป็นตัวอย่าง แบบง่ายๆ ให้พอให้ภาพและสามารถต่อยอด ไอเดีย ได้เท่านั้น หวังว่า จะเป็นประโยชน์ ไม่มากก็น้อย ขอบคุณครับ
+
  Create by:
 
 Mr. Supachai Jaturaprom (Tum).
