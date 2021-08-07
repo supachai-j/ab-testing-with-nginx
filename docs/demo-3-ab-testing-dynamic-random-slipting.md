@@ -1,4 +1,4 @@
-# Demo-3: How to Dynamic A/B testing with random client spliting.
+# Demo-3: Dynamic A/B Testing with Multi-domain.
 
 3.1) ทำการแก้ไขไฟล์ [docker-compose.yml](../docker-compose.yml) ดังนี้
 ```yaml

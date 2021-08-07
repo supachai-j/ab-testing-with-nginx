@@ -1,4 +1,5 @@
-## Demo-4: How to A/B Testing with JWT content base routing.
+## Demo-4: A/B Testing with JWT.
+
 4.1) ทำการแก้ไขไฟล์ [docker-compose.yml](../docker-compose.yml) ดังนี้
 ```yaml
 version: "3.7"
