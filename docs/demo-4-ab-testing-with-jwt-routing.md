@@ -27,7 +27,7 @@ docker-compose logs -f
 auth_jwt "JWT Test Realm" token=$arg_myjwt;
 auth_jwt_key_file /etc/nginx/api_secret.jwk;
 ```
-และมีไฟล์​ [api_secret.jwt](../conf/api_secret.jwt) 
+และมีไฟล์​ [api_secret.jwt](../conf/api_secret.jwk) 
 ```json
 {"keys":
     [{
